@@ -1,42 +1,42 @@
-# CapstoneGroup4
-# Project Title: Plant Disease Detection
-# Project Description: 
-Introduced a novel approach for corn plant disease detection using Convolutional Neural Networks (CNNs). With the aim of enhancing agricultural practices through efficient disease identification, we focused on four major classes: healthy, common rust, blight, and gray leaf spot. Achieved 88% accuracy using a CNN-based model trained on a dataset of diseased and healthy corn plant images. Comprehensive evaluation metrics were employed to assess the model's performance. The goal is to teach computers to tell the difference between healthy leaves and ones that are unhealthy.
+# Plant Disease Detection
 
-# Back-end:
-Capstone_project_final.ipynb file contains final code for this project. 
+## Overview
 
-# Front-end: Directory Structure
-```
-CapstoneGroup4/
-│
-├── static/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── script.js
-│
-├── templates/
-│   └── index.html
-│
-├── model.h5
-│
-├── app.py
-```
-# static/: 
-This directory contains static files such as CSS and JavaScript files.
-# css/: 
-CSS file for styling the HTML templates.
-# js/: 
-JavaScript file for client-side interactions.
+The Plant Disease Detection project is a machine learning-based application designed to identify and classify diseases in plants from images. This project aims to help farmers and gardeners quickly and accurately diagnose plant diseases, enabling timely and appropriate treatment to prevent crop loss and ensure healthy plant growth.
 
-# templates/: 
-This directory contains HTML templates for rendering pages in the Flask application.
-# index.html: 
-The main HTML template for the home page.
+## Features
 
-# model.h5: 
-Pre-trained model file.
+- **Image Classification**: The application uses advanced machine learning algorithms to analyze and classify plant images based on the presence of specific diseases.
+- **User-Friendly Interface**: A simple and intuitive interface allows users to upload images of their plants and receive instant feedback on the health status of the plant.
+- **Disease Information**: The application provides detailed information about identified diseases, including symptoms, causes, and recommended treatments.
+- **Scalability**: The model can be trained to recognize a wide range of plant diseases and can be extended to include more plant species and disease types.
 
-# app.py: 
-Flask application file containing the Python code for the server-side logic.
+## Usage
+
+1. **Upload an Image**: Open the application and upload an image of the plant you want to diagnose.
+2. **Get Diagnosis**: The application will process the image and provide a diagnosis, including the name of the disease (if any) and additional information.
+3. **Review Recommendations**: Read the provided information on symptoms, causes, and treatment recommendations to address the plant disease.
+
+## Model Training
+
+1. **Dataset Preparation**: Collect and label images of healthy and diseased plants.
+2. **Train the Model**: Use the dataset to train the machine learning model. The training process involves splitting the data into training and testing sets, preprocessing the images, and feeding them into the model.
+3. **Evaluate the Model**: Assess the model's performance using appropriate metrics and validate its accuracy on the test set.
+4. **Deploy the Model**: Integrate the trained model into the application for real-time disease detection.
+
+## Dependencies
+
+- Python 3.x
+- TensorFlow or PyTorch
+- Flask (for the web application)
+- OpenCV (for image processing)
+- NumPy
+- Pandas
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## Contact
+
+For any questions or feedback, please contact n.pranideepreddy1999@gmail.com
